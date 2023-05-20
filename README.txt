@@ -1,6 +1,5 @@
 Credits:
 AcousticJamm: Entire Guilded Plays framework
-???: Assistance on test code (Guilded Plays Pokémon Red)
 
 
 How to use:
