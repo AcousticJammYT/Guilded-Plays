@@ -1,0 +1,18 @@
+{
+  "controls": [
+    "left",
+    "right",
+    "up",
+    "down",
+	"a",
+	"b",
+	"start",
+	"select"
+  ],
+  "token": "[Bot Token]",
+  "channel": "[Channel ID]",
+  "game": "Pokemon Red",
+  "mode": "Normal",
+  "admins": [ "x4o1BOVm" ],
+  "xp": true
+}
