@@ -1,5 +1,6 @@
 Credits:
 AcousticJamm: Entire Guilded Plays framework
+YumYummity: Coding help
 
 
 How to use:
