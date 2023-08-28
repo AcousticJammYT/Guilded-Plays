@@ -9,10 +9,18 @@
 	"start",
 	"select"
   ],
-  "token": "[Bot Token]",
-  "channel": "[Channel ID]",
+  "token": "[Token]",
+  "channel": "[Channel]",
   "game": "Pokemon Red",
   "mode": "Normal",
-  "admins": [ "x4o1BOVm" ],
-  "xp": true
+  "admins": {
+	"x4o1BOVm": 4,
+	"41oPN5Pm": 2
+  },
+  "xp": true,
+  "trivia": true,
+  "voice": true,
+  "democracy_timer": 15,
+  "prefix": "gp!",
+  "pin_messages": true,
 }
