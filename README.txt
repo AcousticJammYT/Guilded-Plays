@@ -9,14 +9,7 @@ How to use:
    having an input library installed on your computer (I use pynput).
 
 2) Inside bot_info.json, you'll see the template for the bot information. Edit that to suit whatever
-   you need, but keep in mind the "controls"; we'll use that later. The "token" is your bot's token
-   and the "channel" is the ID of the channel you want the bot to receive input from. The "game" is
-   the name of the game your Guilded server is playing, as it will be used for startup. Make sure that
-   everything in "controls" is completely lowercase, as it will convert the message to lowercase to
-   check for an equality. Also keep in mind that the message will have to be exactly the same as the
-   command (minus capitalization), so keep it simple. For "mode", see below. "admins" is a list of
-   user IDs that can control the event. Be sure to add yourself! And finally, "xp" is if you want the
-   bot to give experience when players contribute to the game.
+   you need, but keep in mind the "controls"; we'll use that later. Everything should be obvious.
 
 3) This step is the tricky step; go into function.py and write the callCommand(command) function. What
    this function is meant for is to take the string command (as it is in bot_info.json)and convert it
@@ -35,3 +28,5 @@ Modes:
   these controls.
 - "Crews": As seen on the Dougdoug YouTube channel, the chat splits up between two teams. By default,
   these teams are A Crew, which is those with usernames starting with A-M, and Z Crew, which is N-Z.
+- "Democracy Multi": Users can send as many votes as they want. By the end of the voting period, the
+  items with the most votes get played.
